@@ -1,0 +1,20 @@
+<%- include("../common/header.ejs") -%>
+    <div class="box" id="heading">
+        <h2>
+            Choose Upload Way
+        </h2>
+        <%= listTitle %>
+    </div>
+    <div class="box">
+        <div class="item">
+            <a href="http://localhost:4000/upload/single"
+                style="text-decoration: none; color:black; font-size: 20px;padding: 10px;">
+                Single File</a>
+        </div>
+        <div class="item">
+            <a href="http://localhost:4000/upload/multiple"
+                style="text-decoration: none; color:black; font-size: 20px;padding: 10px;">
+                Multiple Files</a>
+        </div>
+    </div>
+    <%- include("../common/footer.ejs") -%>

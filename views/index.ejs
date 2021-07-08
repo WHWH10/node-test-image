@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>파일업로드</title>
+        <body>
+            <div>
+                <form method="post" action="/upload" enctype="multipart/form-data">
+                    <!-- <input type="file" name="files"/><button type="submit">업로드</button> -->
+                    <input type="file" name="multi-files" multiple/>
+                    <button type="submit">업로드</button>
+                </form>
+            </div>
+        </body>
+    </head>
+</html>
