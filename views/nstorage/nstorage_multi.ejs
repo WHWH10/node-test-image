@@ -1,0 +1,15 @@
+<%- include("../common/header.ejs") -%>
+    <div class="box" id="heading">
+        <h2>
+            Multiple Files Upload
+        </h2>
+    </div>
+    <div class="box">
+        <div class="item">
+            <form method="post" action="/nstorage/upload/multiple" enctype="multipart/form-data">
+                <input type="file" name="multiple" />
+                <button type="submit">업로드</button>
+            </form>
+        </div>
+    </div>
+    <%- include("../common/footer.ejs") -%>
